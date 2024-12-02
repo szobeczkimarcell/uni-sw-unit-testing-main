@@ -10,7 +10,7 @@ public class FibonacciTest {
         System.out.println("Testing Fibonacci method");
         Fibonacci fib = new Fibonacci();
 
-        assertEquals(fib.getFibonacciNumber(15), 377);
-        assertEquals(fib.getFibonacciNumber(20), 4181);
+        assertEquals(fib.getFibonacciNumber(8), 13);
+        assertEquals(fib.getFibonacciNumber(23), 17711);
     }
 }
